@@ -43,20 +43,20 @@ const Secondsection = () => {
     
     let prev = 0;
     
-    const animation = () => setInterval(() => {
-      const index = uniqueRand(0, combinations.length - 1, prev),
-            combination = combinations[index];
-            const randomNum = Math.floor(Math.random() * 10) + 1;
-      setConfiguration(combination.configuration);
-     setRoundness(combination.roundness) ;
-      settextcollection(services[randomNum])
-      console.log(textcollection)
-      prev = index;
-    }, 2000);
-    useEffect(() => {
-   animation()
+  //   const animation = () => setInterval(() => {
+  //     const index = uniqueRand(0, combinations.length - 1, prev),
+  //           combination = combinations[index];
+  //           const randomNum = Math.floor(Math.random() * 10) + 1;
+  //     setConfiguration(combination.configuration);
+  //    setRoundness(combination.roundness) ;
+  //     settextcollection(services[randomNum])
+  //     console.log(textcollection)
+  //     prev = index;
+  //   }, 2000);
+  //   useEffect(() => {
+  //  animation()
 
-    }, [])
+  //   }, [])
     
   return (
     <div className='Secondsection'>
