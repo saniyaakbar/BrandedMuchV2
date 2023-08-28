@@ -150,7 +150,7 @@ code {
 }
 
 .sec_three{
-  height: 70vh;
+  height: 40vh;
   width: 100%;
   padding: 2rem;
   /* background-color: #fff; */
@@ -407,7 +407,9 @@ font-weight: 100;
   align-items: center;
 }
 
-
+.sec_seven img{
+  height: 110%;
+}
 
 .sec_seven_images{
   display: flex;
@@ -415,6 +417,7 @@ font-weight: 100;
   align-items: center;
   height: 70vh;
   width: 70%;
+  overflow: hidden;
   /* background-color: #eb9696; */
 }
 
@@ -438,13 +441,14 @@ font-weight: 100;
 .big_image{
   height: 70%;
   width: 100%;
-  background-color: aqua;
-  padding: 0.5rem;
+  /* background-color: aqua; */
+  padding: 1rem 0.5rem;
+  overflow: hidden;
 }
 
 .small_images{
   padding: 0.5rem;
-  height: 30%;
+  height: 35%;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -455,7 +459,7 @@ font-weight: 100;
 .small_img{
   height: 96%;
   width: 47%;
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 0.5rem;
 }
 
@@ -463,12 +467,14 @@ font-weight: 100;
   position: absolute;
   height: 40vh;
   width: 50%;
-  background-color: #ffffffe3;
+  background-color: #e07676f9;
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 10px;
+  font-weight: 300;
 
 }
 

@@ -28,8 +28,9 @@ const Home = () => {
      
 
     <SecOne/>
-    <SecTwo/>
+   
     <SecThree/>
+    <SecTwo/>
     <SecFour/>
     <SecFive/>
     <SecSix/>
