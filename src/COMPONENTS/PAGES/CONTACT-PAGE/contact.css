@@ -1,0 +1,158 @@
+.Contact{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+.contact-right{
+    width: 40%;
+    min-height: 100%;
+    background-color:#111111;
+}
+.contact-left{
+    position: relative;
+    width: 60%;
+    min-height: 100%;
+    background-color: rgb(43, 49, 213);
+}
+.contact-right-top{
+    font-family: product sans;
+    font-size: 1.5vmax;
+    padding: 2vmax;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 10vmax;
+    /* background-color: black; */
+ color: #ED0072;
+}
+.contact-right-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height:30vmax;
+    /* background-color: b; */
+}
+.contact-right-form .form-input{
+    border: 20px solid yellow;
+    outline: none;
+    border: none;
+    padding: 2vmax;
+margin-bottom: 1.5vmax;
+    width: 80%;
+    height: 2.5vmax;
+    background-color: transparent;
+    color: white;
+    font-family: product sans;
+font-size: 1.4vmax;
+}
+#border{
+    border-bottom: 2.2px solid white;
+}
+.contact-right-form .form-input::placeholder{
+color: white;
+font-family: product sans;
+font-size: 1.4vmax;
+}
+.contact-right-form .form-btn{
+    border-radius: 20px;
+    width: 8vmax;
+    margin-top: 2.3vmax;
+    height: 3.5vmax;
+    background-color: #ED0072;
+}
+.contact-right-form .form-btn h2{
+    color: white;
+    font-size: 1.4vmax;
+}
+.contact-left .contact-left-background{
+    width: 100%;
+    height: 100%;
+    /* background-color: darkblue; */
+    background-image: 
+    url(https://images.unsplash.com/photo-1442323794357-25b2ec110967?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+     object-fit: cover;
+}
+.contact-left .contact-left-leftbar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 5vmax;
+    height: 100%;
+    /* background-color: chartreuse; */
+}
+.contact-left-leftbar-logo{
+width: 100%;
+height: 50%;
+/* background-color: aliceblue; */
+}
+.contact-left-leftbar-social{
+    width: 100%;
+height: 50%;
+/* background-color: rgb(11, 73, 127); */
+}
+@media(max-width:550px){
+    .contact-left .contact-left-background{
+        width: 100%;
+        height: 50vh;
+        background-image: 
+        url(https://images.unsplash.com/photo-1442323794357-25b2ec110967?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+        background-size: cover;
+         object-fit: cover;
+    }
+
+    .contact-left .contact-left-leftbar{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 10vmax;
+        /* background-color: chartreuse; */
+    }
+    .contact-left-leftbar-logo{
+        display: none;
+        }
+        .contact-left-leftbar-social{
+            display: none;
+            width: 100%;
+        height: 100%;
+        background-color: rgb(11, 73, 127);
+        }
+    .Contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-right{
+        width: 100%;
+       min-height: 60vh;
+    }
+    .contact-left{
+        width: 100%;
+       min-height: 40vh;
+    }
+}
+    /* 
+    @media (max-width: 1000px) {
+        .Contact{
+            height: 70vh;
+        }
+
+        .contact-right-top{
+            font-size: 2.3vmax;
+        margin-top: 2vmax;
+        }
+
+        .contact-right-form{
+            height: 45vh;
+        }
+
+        .contact-right-form .form-btn{
+            width: 15vmax;
+            height: 4.5vmax;
+        }
+    } */

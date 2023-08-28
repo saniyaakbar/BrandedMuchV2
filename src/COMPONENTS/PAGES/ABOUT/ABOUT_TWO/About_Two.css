@@ -1,0 +1,116 @@
+.about_two{
+    height: 100vh;
+    width: 100%;
+    background-color: #de0156;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.about_two_left{
+    height: inherit;
+    width: 70%;
+    border-radius: 0 50% 50% 0;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.about_two_left_text{
+    width: 55%;
+    height: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%,-50%);
+    color: white;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.about_two_left_text>h3{
+    text-align: center;
+    font-size: 3.2vmax;
+    color: #F7760D;
+}
+
+.about_two_left_text>p{
+    text-align: justify;
+}
+
+.about_two_left_text>button{
+    background-color: #F7760D;
+    font-size: 1.5vmax;
+    border-radius: 2vmax;
+    padding: 0.7vmax 2vmax;
+    margin-top: 1vmax;
+}
+
+.moon {
+    /* position: relative; */
+    display: block;
+    margin: 2rem;
+    width: 74%;
+    height: 76%;
+    background-color: transparent;
+    /* background-color: #F7760D; */
+    box-shadow: inset -12px 5px 0 3px #F7760D;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    transform: rotate(20deg);
+}
+
+.moon2{
+    transform: rotate(-120deg);
+    box-shadow: inset -12px 5px 0 3px #CE008F;
+}
+
+.moon3{
+    transform: rotate(120deg);
+    box-shadow: inset -12px 5px 0 3px #F2415F;
+}
+
+.about_two_right{
+    padding-left: 3vmax;
+    height: inherit;
+    width: 70%;
+    background-color: #de0156df;
+    position: relative;
+    overflow: hidden;
+}
+
+.about_two_right_btm{
+    position: absolute;
+    bottom: 10%;
+    height: 10vh;
+    width: 80%;
+    border-radius: 10vmax;
+    background-color: #F7760D;
+    right: -5%;
+    text-align: center;
+    border: none;
+    font-size: 2vmax;
+    color: white;
+}
+
+.one {
+    position: absolute;
+    top: 2%;
+    right: 0%;
+    height: 20vh;
+    width: 8%;
+    background: linear-gradient(90deg, #de0156df 21px, transparent 1%) center, linear-gradient(#de0156df 21px, transparent 1%) center, #F7760D;
+    background-size: 25px 25px;
+    
+  }
+

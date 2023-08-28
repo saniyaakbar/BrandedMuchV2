@@ -1,0 +1,16 @@
+.about_three{
+    height: 100vh;
+    width: 100%;
+    background-color: #111111;
+}
+
+.about_three_more{
+    height: 10vh;
+    width: 100%;
+    background-color: #F2415F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vmax;
+    color: white;
+}

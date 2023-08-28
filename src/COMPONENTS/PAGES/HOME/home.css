@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Questrial&display=swap');
+.home{
+    /* display: flex; */
+    width: 100%;
+    min-height: 92vh;
+    background-color: #111111;
+    overflow: hidden;
+    padding: 2rem;
+}

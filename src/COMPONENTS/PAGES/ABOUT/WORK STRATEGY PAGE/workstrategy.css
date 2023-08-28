@@ -1,0 +1,25 @@
+.Workstrategy{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 92vh;
+    background-color: #111111;
+}
+.ws-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color:#111111;
+}
+.ws-top h2{
+    color: white;
+    font-size: 1.6rem;
+    font-family: product sans;
+}
+.ws-bottom{
+    width: 100%;
+    height: 82  vh;
+    background-color: rgb(13, 132, 132);
+}
