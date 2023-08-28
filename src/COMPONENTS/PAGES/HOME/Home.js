@@ -25,11 +25,7 @@ const Home = () => {
 
   return (
     <div className='home'>
-      {/* <Image_Slider/> */}
-      {/* <SideNav/>
-      <AllReviews/>
-    <Hero/>
-    <Secondsection/> */}
+     
 
     <SecOne/>
     <SecTwo/>
