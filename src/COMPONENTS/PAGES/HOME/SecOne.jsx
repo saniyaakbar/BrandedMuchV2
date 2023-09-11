@@ -4,6 +4,8 @@ import TriangleImage from './TriangleImage'
 function SecOne() {
   return (
     <div className='sec_one'>
+      <div className="cir"></div>
+      <div className="cir2"></div>
       <div className="sec_one_text">
       <h1 className='title'>
       Turning Ideas to Brands 
@@ -15,7 +17,7 @@ function SecOne() {
       Get Free Proposal
       </button>
       </div>
-
+      
       <TriangleImage/>
     </div>
   )

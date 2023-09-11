@@ -2,7 +2,9 @@ import React from 'react'
 
 function Cta() {
   return (
-    <div className='cta'>Cta</div>
+    <div className='cta'>
+      
+    </div>
   )
 }
 

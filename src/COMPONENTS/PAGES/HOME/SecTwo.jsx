@@ -8,12 +8,12 @@ function SecTwo() {
         <h1><span>Content</span> Branding is for <span>everyone,</span> everytime, <span>everywhere!</span> </h1>
    
       <div className="cards">
-      <Card title={"1800+ Influencers"} bodyText={"lorem ispassbdsajdbas jbdsan kasbd"}/>
-      <Card title={"250+ Celebrities"} bodyText={"lorem ispassbdsajdbas jbdsan kasbd"}/>
-      <Card title={"170+ Ads"} bodyText={"lorem ispassbdsajdbas jbdsan kasbd"}/>
-      <Card title={"25+ Events"} bodyText={"lorem ispassbdsajdbas jbdsan kasbd"}/>
-      <Card title={"400+ Brands"} bodyText={"lorem ispassbdsajdbas jbdsan kasbd"}/>
-      <Card title={"15+ Startups"} bodyText={"lorem ispassbdsajdbas jbdsan kasbd"}/>
+      <Card title={"1800+ "} subText={"Influencers"}/>
+      <Card title={"250+ "} subText={"Celebrities"}/>
+      <Card title={"170+ "} subText={"Ads"}/>
+      <Card title={"25+ "} subText={"Events"}/>
+      <Card title={"400+ "} subText={"Brands"}/>
+      <Card title={"15+ "} subText={"Startups"}/>
       </div>
     </div>
   )

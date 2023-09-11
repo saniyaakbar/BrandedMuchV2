@@ -15,6 +15,7 @@ import Cta from '../../Cta'
 import SecFive from './SecFive'
 import SecSix from './SecSix'
 import SecSeven from './SecSeven'
+import SecEight from './SecEight'
 // import { Timeline } from 'gsap/gsap-core';
 // import $ from "jquery";
 // import { useEffect } from 'react';
@@ -35,8 +36,9 @@ const Home = () => {
     <SecFive/>
     <SecSix/>
     <SecSeven/>
+    <SecEight/>
     <Cta/>
-    <Footer/>
+  
     </div>
   )
 }

@@ -2,7 +2,7 @@
 import './App.css';
 import Contact from './COMPONENTS/PAGES/CONTACT-PAGE/Contact';
 import Faq from './COMPONENTS/PAGES/FAQ-PAGE/Faq';
-import Footer from './COMPONENTS/FOOTER/Footer';
+
 import About from './COMPONENTS/PAGES/ABOUT/About';
 import Nav from './COMPONENTS/NAV-BAR/Nav';
 import Home from './COMPONENTS/PAGES/HOME/Home';
@@ -16,7 +16,7 @@ import Services from './COMPONENTS/PAGES/SERVICES/Services';
 import All_Blogs from './COMPONENTS/PAGES/CONTACT-PAGE/BLOG/ALL_BLOGS/All_Blogs';
 import BlogDetail from './COMPONENTS/PAGES/CONTACT-PAGE/BLOG/BLOG_DETAIL/BlogDetail';
 import { SideNav } from './COMPONENTS';
-
+import Footer from './COMPONENTS/FOOTER/Footer';
 
 import {TweenMax, Power3} from 'gsap'
 
@@ -51,12 +51,9 @@ function App() {
         
         <Route path="/blog/detail" element={<BlogDetail/>}/>
 
-      
-      
-      
       </Routes>
   
-    
+      <Footer/>
       
     </div>
     
